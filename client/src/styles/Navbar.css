@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 102, 238);
+    z-index: 10;
+    backdrop-filter: blur(15px);
+}
+
+svg {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,58 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(228, 226, 226);
+}
+
+.panels {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.leftPanel {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    padding: 35px 35px 35px 35px;
+    box-shadow: 3px 4px 13px rgb(104, 103, 103);
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.leftPanel h2 {
+    color: black;
+}
+
+.rightPanel {
+    background-color: blue;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center; /* Centers the img horizontally */
+    align-items: center; /* Centers the img vertically */
+    box-shadow: 3px 5px 4px rgb(104, 103, 103);
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.mycompany-text {
+    color: rgb(46, 90, 185);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.socialsIcon {
+    width: 85%;
+    height: 85%;
+    object-fit:contain;
+}

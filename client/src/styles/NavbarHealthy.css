@@ -1,0 +1,35 @@
+.navbarHealthy {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbarWithin {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: rgb(82,168,27);
+    background: linear-gradient(90deg, rgba(82,168,27,1) 8%, rgba(24,189,117,1) 78%);
+    color: white;
+    height:50px;
+    width: 40%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbarWithin a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarWithin a:hover {
+    color: rgb(4, 70, 15);
+}
+
+.navbarWithin input {
+    border-radius: 10px;
+    border: none;
+}
